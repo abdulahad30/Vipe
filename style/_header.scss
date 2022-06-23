@@ -1,0 +1,59 @@
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #00000007;
+    transform: translateY(0px);
+    nav{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            color: #fff;
+            margin-left: -300px;
+        }
+        .log{
+          color: #fff;
+        }
+        .collaction{
+            display: flex;
+            :first-child{
+                color: red;
+            }
+            .item{
+                list-style: none;
+                margin-left: 40px;
+                img{
+                  width: 50px;
+                  height: 50px;
+                  transform: translateY(20px);
+                }
+                i{
+                  color: #fff;
+                }
+                a{
+                   
+                    color: #fff;
+                    text-decoration: none;
+                  
+                }
+            }
+        }
+    }
+  }
+
+
+  @media screen and (max-width:600px) {
+    header{
+      nav{
+        .log{
+          font-size: 10px;
+          color: black;
+        }
+      }
+    }
+   
+    
+  }
